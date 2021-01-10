@@ -57,6 +57,7 @@ public class Point {
         return distance;
     }
 
+    //
     public double slope(Point Other) {
         double slope;
         slope = (double) (this.getY() - Other.getY()) /( this.getX() - Other.getX());
